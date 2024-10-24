@@ -1,6 +1,5 @@
 [workspace]
 members = [
-    #basics
     "basics/account-data/native/program",
     "basics/account-data/anchor/programs/anchor-program-example",
     "basics/checking-accounts/native/program",
@@ -35,6 +34,7 @@ members = [
     "tokens/token-2022/default-account-state/native/program",
     "tokens/token-2022/transfer-fee/native/program",
     "tokens/token-2022/multiple-extensions/native/program",
+    "tokens/create-token/poseidon"
 ]
 resolver = "2"
 
